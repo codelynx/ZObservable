@@ -6,7 +6,7 @@ When there are some changes made on a model object, some views, view controllers
 
 ### ZObservable
 
-Here is the typical implementation of observable side.  Assume there is a property called `value`, which is being interested in other objects to get notified upon changes.  You may write `didSet` or other mechanism to detect the changes, and call `observableDidChange()`.  As you can see, this is not automatic, trigger to make notifications are made programatically.
+Here is the typical implementation of observable side.  Assume there is a property called `value`, which is being interested in other objects to get notified upon changes.  You may write `didSet` or other mechanism to detect the changes, and call `observableDidChange()` protocol extension method.  As you can see, this is not automatic.  Triggers to make notification are made programatically.
 
 
 ```.swift
@@ -38,7 +38,7 @@ class MyObserver: ZObserver {
 
 ### Start Listening
 
-By adding observer object to observable object by calling `addObserver()` method, now this notification mechanism is set and ready for making changes.
+By adding observer object to observable object by calling `addObserver()` protocol extension method, now this notification mechanism is set and ready for making changes.
 
 ```.swift
 let observable = MyObservable()
@@ -58,7 +58,7 @@ observable.value = 7 // "MyObservable did change to 7."
 
 ### Stop listening
 
-When observer or observable is no longer interested in get notified then call ether methods to stop notifying.  However, both observers and observables are weakly referenced internally, whichever either observer or observable went out of scope to get released, the notification related to that object also will be lost.  So in many cases, you may not have remove observer or observable programatically.
+When observer or observable is no longer interested in get notified then call ether methods to stop notifying.  However, both observers and observables are weakly referenced internally, whichever either observer or observable went out of scope to get released, then notifications related to that object also will be lost.  So in many cases, you may not have to remove observer or observable programatically.
 
 ```.swift
 observable.removeObserver(observer)
@@ -127,6 +127,13 @@ request.addValue("string", forHTTPHeaderField: "custom")
 request.observableDidChange() // notify
 ```
 
+### Other Considerations
+
+You may also like to consider follwing options.
+
+* [Key-Value Observing](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html)
+* [Using Notification and NotificationCenter](https://developer.apple.com/reference/foundation/nsnotificationcenter)
+* [RxSwift](https://github.com/ReactiveX/RxSwift)
 
 ### Feedback
 
