@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFCCF531DD0D4BB0036945C /* ZObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCCF521DD0D4BB0036945C /* ZObservableTests.swift */; };
+		CCFCCF581DD0D4C50036945C /* ZObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCCF491DD0D48E0036945C /* ZObservable.swift */; };
+		CCFCCF591DD0D4C50036945C /* ZWeakObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCCF4A1DD0D48E0036945C /* ZWeakObjects.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCFCCF491DD0D48E0036945C /* ZObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZObservable.swift; sourceTree = "<group>"; };
+		CCFCCF4A1DD0D48E0036945C /* ZWeakObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWeakObjects.swift; sourceTree = "<group>"; };
+		CCFCCF4F1DD0D4BB0036945C /* ZObservableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZObservableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFCCF521DD0D4BB0036945C /* ZObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZObservableTests.swift; sourceTree = "<group>"; };
+		CCFCCF541DD0D4BB0036945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFCCF4C1DD0D4BB0036945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFCCF411DD0D4680036945C = {
+			isa = PBXGroup;
+			children = (
+				CCFCCF481DD0D47F0036945C /* ZObservable */,
+				CCFCCF511DD0D4BB0036945C /* ZObservableTests */,
+				CCFCCF501DD0D4BB0036945C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFCCF481DD0D47F0036945C /* ZObservable */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCCF491DD0D48E0036945C /* ZObservable.swift */,
+				CCFCCF4A1DD0D48E0036945C /* ZWeakObjects.swift */,
+			);
+			path = ZObservable;
+			sourceTree = "<group>";
+		};
+		CCFCCF501DD0D4BB0036945C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCCF4F1DD0D4BB0036945C /* ZObservableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFCCF511DD0D4BB0036945C /* ZObservableTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCCF521DD0D4BB0036945C /* ZObservableTests.swift */,
+				CCFCCF541DD0D4BB0036945C /* Info.plist */,
+			);
+			path = ZObservableTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFCCF4E1DD0D4BB0036945C /* ZObservableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFCCF551DD0D4BB0036945C /* Build configuration list for PBXNativeTarget "ZObservableTests" */;
+			buildPhases = (
+				CCFCCF4B1DD0D4BB0036945C /* Sources */,
+				CCFCCF4C1DD0D4BB0036945C /* Frameworks */,
+				CCFCCF4D1DD0D4BB0036945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZObservableTests;
+			productName = ZObservableTests;
+			productReference = CCFCCF4F1DD0D4BB0036945C /* ZObservableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFCCF421DD0D4680036945C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					CCFCCF4E1DD0D4BB0036945C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2P97EM4L4N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CCFCCF451DD0D4680036945C /* Build configuration list for PBXProject "ZObservable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCFCCF411DD0D4680036945C;
+			productRefGroup = CCFCCF501DD0D4BB0036945C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFCCF4E1DD0D4BB0036945C /* ZObservableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFCCF4D1DD0D4BB0036945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFCCF4B1DD0D4BB0036945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCCF531DD0D4BB0036945C /* ZObservableTests.swift in Sources */,
+				CCFCCF591DD0D4C50036945C /* ZWeakObjects.swift in Sources */,
+				CCFCCF581DD0D4C50036945C /* ZObservable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCFCCF461DD0D4680036945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CCFCCF471DD0D4680036945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CCFCCF561DD0D4BB0036945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ZObservableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.ZObservableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCFCCF571DD0D4BB0036945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ZObservableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.ZObservableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFCCF451DD0D4680036945C /* Build configuration list for PBXProject "ZObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCCF461DD0D4680036945C /* Debug */,
+				CCFCCF471DD0D4680036945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFCCF551DD0D4BB0036945C /* Build configuration list for PBXNativeTarget "ZObservableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFCCF561DD0D4BB0036945C /* Debug */,
+				CCFCCF571DD0D4BB0036945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFCCF421DD0D4680036945C /* Project object */;
+}
